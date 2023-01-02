@@ -1,6 +1,6 @@
 <?php
 
-namespace Ezitisitis\JetstreamNoPersonalTeam;
+namespace EzitisItIs\JetstreamNoPersonalTeam;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;

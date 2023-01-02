@@ -1,6 +1,6 @@
 <?php
 
-namespace Ezitisitis\JetstreamNoPersonalTeam\Http\Middleware;
+namespace EzitisItIs\JetstreamNoPersonalTeam\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

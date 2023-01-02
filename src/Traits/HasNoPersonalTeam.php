@@ -1,6 +1,6 @@
 <?php
 
-namespace Ezitisitis\JetstreamNoPersonalTeam\Traits;
+namespace EzitisItIs\JetstreamNoPersonalTeam\Traits;
 
 trait HasNoPersonalTeam
 {

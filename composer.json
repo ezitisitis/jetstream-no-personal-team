@@ -9,7 +9,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ezitisitis\\JetstreamNoPersonalTeam\\": "src/"
+            "EzitisItIs\\JetstreamNoPersonalTeam\\": "src/"
         }
     },
     "authors": [
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ezitisitis\\JetstreamNoPersonalTeam\\JetstreamNoPersonalTeamServiceProvider"
+                "EzitisItIs\\JetstreamNoPersonalTeam\\JetstreamNoPersonalTeamServiceProvider"
             ]
         }
     }
