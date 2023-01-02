@@ -1,6 +1,7 @@
 {
     "name": "ezitisitis/jetstream-no-personal-team",
     "description": "Remove personal team forcing from Laravel Jetstream",
+    "keywords": ["jetstream", "laravel", "teams", "registration"],
     "type": "library",
     "require": {
         "laravel/jetstream": "^2.13",
