@@ -1,0 +1,29 @@
+{
+    "name": "ezitisitis/jetstream-no-personal-team",
+    "description": "Remove personal team forcing from Laravel Jetstream",
+    "type": "library",
+    "require": {
+        "laravel/jetstream": "^2.13",
+        "laravel/framework": "^9.19"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ezitisitis\\JetstreamNoPersonalTeam\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marks Bogdanovs",
+            "email": "mail@ezitisitis.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ezitisitis\\JetstreamNoPersonalTeam\\JetstreamNoPersonalTeamServiceProvider"
+            ]
+        }
+    }
+}
