@@ -4,8 +4,8 @@
     "keywords": ["jetstream", "laravel", "teams", "registration"],
     "type": "library",
     "require": {
-        "laravel/jetstream": "^2.13",
-        "laravel/framework": "^9.19"
+        "laravel/jetstream": "^2.13||^3.0",
+        "laravel/framework": "^9.19||^10.0"
     },
     "license": "MIT",
     "autoload": {
