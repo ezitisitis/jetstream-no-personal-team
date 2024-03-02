@@ -34,6 +34,10 @@ trait HasNoPersonalTeam
      */
     public function isMemberOfATeam(): bool
     {
-        return (bool) ($this->teams()->count() || $this->ownedTeams()->count());
+        if (!$this->allTeams()->count()) {
+            return false;
+        }
+
+        return true;
     }
 }
