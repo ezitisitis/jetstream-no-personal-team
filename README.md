@@ -29,3 +29,7 @@ Remove `$this->createTeam($user);` from `App\Actions\Fortify\CreateNewUser`
 
 In blades replace `Laravel\Jetstream\Jetstream::hasTeamFeatures()` with 
 `Laravel\Jetstream\Jetstream::hasTeamFeatures() && Auth::user()->isMemberOfATeam()`
+
+## Credits
+
+- [Marks Bogdanovs](https://www.ezitisitis.com)
