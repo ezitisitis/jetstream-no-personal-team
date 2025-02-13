@@ -10,7 +10,7 @@ class EnsureHasTeam
     public function handle(Request $request, Closure $next)
     {
         if (!auth()->user()->isMemberOfATeam()) {
-            return redirect()->route('teams.create');
+            return redirect()->route(config('jetstream.no-team-personal-team.redirect', 'teams.create'));
         }
         $this->ensureUserHasCurrentTeamSet();
         return $next($request);
